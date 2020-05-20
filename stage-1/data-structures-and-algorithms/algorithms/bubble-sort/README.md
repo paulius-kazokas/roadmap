@@ -19,3 +19,5 @@ Implementation:
 8. Setting index i value to 0.
 Note. After each traversal from current unsorted partition index becomes sorted partition and then sorting continues in range 0 and unsorted partition index - 1.
 8. Continues 2-8 steps till all values sorted (swapped and compared by neighbours value) - i value is 0 which means all values sorted.
+
+![Bubble sort scheme](https://miro.medium.com/max/1104/1*RTUyyi7jMruuzAE9I7ggjQ.png)
