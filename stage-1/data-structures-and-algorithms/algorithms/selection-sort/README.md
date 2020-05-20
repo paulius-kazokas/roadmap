@@ -14,4 +14,5 @@ Implementation:
 3. Initializing _largest value index_ to 0 ( at the beginning largest value is at index 0 ).
 4. Comparing array element at position index 0 with element of position index + 1.
 5. If value is higher setting _largest value index_ to elements index.
+
 (to be continued)
