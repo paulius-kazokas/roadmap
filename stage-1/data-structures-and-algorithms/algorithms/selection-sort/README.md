@@ -8,11 +8,23 @@ Traversing array to find the largest element in unsorted partition array lenght 
 * Quadratic - O(n^2) time complexity ( _Example: 100 steps to sort 10 items, 10 000 steps to sort 100 items and so on.._ )
 * Unstable algorithm ( swapping the largest element in unsorted position could cause the swap with it's twin duplicate element to move in front in sorted part )
 
-Implementation:
-1. Starts at the left of the array or at the index 0.
-2. Last unsorted index is set to array length - 1.
-3. Initializing _largest value index_ to 0 ( at the beginning largest value is at index 0 ).
-4. Comparing array element at position index 0 with element of position index + 1.
-5. If value is higher setting _largest value index_ to elements index.
+Participants:
+* Last unsorted index - last index of the unsorted partition
+* i - index used to traverse the array from left to right (i++)
+* largest value index - descrbes index of higher value index between i and i + 1
 
-(to be continued)
+Implementation:
+1. Starts from arrays element index 0.
+2. _Last unsorted index_ is set to __array length - 1__.
+3. Initializing _largest value index_ to 0 ( at the beginning largest value is at index 0 ).
+4. Comparing array element at position index __0__ with element of position __index + 1__. If element index + 1 value is higher setting _largest value index_ to elements index, else do nothing.
+5. Incrementing i by 1.
+6. Continues steps 2-5 till _i_ equals _Last unsorted index_, then _Last unsorted index_ decreasing by 1.
+7. Continues steps 2-6 till _i_ equals 0.
+
+<p float="left">
+  <img src="http://www.equestionanswers.com/c/images/selection-sort-selection1-iteration-stages.png" width="200" height="350">
+  <img src="http://www.equestionanswers.com/c/images/selection-sort-selection2-iteration-stages.png" width="200" height="300">
+  <img src="http://www.equestionanswers.com/c/images/selection-sort-selection3-iteration-stages.png" width="200" height="220">
+  <img src="http://www.equestionanswers.com/c/images/selection-sort-selection4-iteration-stages.png" width="200" height="150">
+ </p>
