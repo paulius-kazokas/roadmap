@@ -22,9 +22,9 @@ Implementation:
 6. Continues steps 2-5 till _i_ equals _Last unsorted index_, then _Last unsorted index_ decreasing by 1.
 7. Continues steps 2-6 till _i_ equals 0.
 
-<p float="left">
+<p align="midlde">
   <img src="http://www.equestionanswers.com/c/images/selection-sort-selection1-iteration-stages.png" width="200" height="350">
-  <img src="http://www.equestionanswers.com/c/images/selection-sort-selection2-iteration-stages.png" width="200" height="300">
+  <img src="http://www.equestionanswers.com/c/images/selection-sort-selection2-iteration-stages.png" width="200" height="290">
   <img src="http://www.equestionanswers.com/c/images/selection-sort-selection3-iteration-stages.png" width="200" height="220">
-  <img src="http://www.equestionanswers.com/c/images/selection-sort-selection4-iteration-stages.png" width="200" height="150">
+  <img src="http://www.equestionanswers.com/c/images/selection-sort-selection4-iteration-stages.png" width="200" height="140">
  </p>
