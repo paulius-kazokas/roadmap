@@ -1,6 +1,6 @@
 # Bubble Sort
 
-_"..larger values bubbling up at the end of the array.."_
+_"..swapping each greater value and bubbling up at the end of the array.."_
 
 Sorts arrays using unsorted partition index __(array length - 1)__ and index (__i__) that will always starts at __0__ to traverse the array from left to right.
 
