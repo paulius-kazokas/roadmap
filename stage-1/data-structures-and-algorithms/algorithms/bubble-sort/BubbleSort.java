@@ -1,9 +1,7 @@
 public class BubbleSort {
 
     public static void main(String[] args) {
-        for (int i : bubbleSort(new int[]{20, 35, -15, 7, 55, 1, -22})) {
-            System.out.print(i + " ");
-        }
+        System.out.print(Arrays.toString(bubbleSort(new int[]{20, 20, -15, 7, 55, 1, -22})));
     }
 
     /**
