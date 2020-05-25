@@ -4,6 +4,11 @@ _"..inserting unsorted values in sorted partition and comparing with each sorted
 
 Sorted array values starts at array index 0 - at first iteration it's highest sorted value. Value comparison starts from right to left which means comparing first unsorted array value with last sorted array values in the beginning of the array. If unsorted value is higher than sorted value the unsorted value is saved at __new highest__ value, the last sorted value is placed at unsorted value index ( place ), sorted array length increments and the higher value is placed at the end of the sorted array. If there's more than one element in sorted array part then the unsorted value is compared with each sorted value from right to left ( last to first sorted value index ).
 
+Specifications:
+* In-place algorithm ( doesn't use any extra memory )
+* Quadratic - O(n^2) time complexity ( _Example: 100 steps to sort 10 items, 10 000 steps to sort 100 items and so on.._ )
+* Stable algorithm - picking elements from left to right and if the element is less or equal or duplicate the comparison stops and the element will be place at the right of the sorted elements ( if duplicate then first duplicate will stays in it's original position )
+
 Participants:
 * __firstUnsortedIndex__ - the first index of the unsorted partition
 * __i__ - index used to iterate through sorted array partition
