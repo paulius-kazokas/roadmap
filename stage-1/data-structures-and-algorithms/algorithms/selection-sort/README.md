@@ -9,9 +9,9 @@ Traversing array to find the largest element in unsorted partition array lenght 
 * Unstable algorithm ( swapping the largest element in unsorted position could cause the swap with it's twin duplicate element to move in front in sorted part )
 
 Participants:
-* Last unsorted index - last index of the unsorted partition
-* i - index used to traverse the array from left to right (i++)
-* largest value index - descrbes index of higher value index between i and i + 1
+* __Last unsorted index__ - last index of the unsorted partition
+* __i__ - index used to traverse the array from left to right (i++)
+* __largest value index__ - descrbes index of higher value index between i and i + 1
 
 Implementation:
 1. Starts from arrays element index 0.
