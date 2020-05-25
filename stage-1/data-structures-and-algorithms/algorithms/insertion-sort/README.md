@@ -22,6 +22,8 @@ Implementation:
 6. __firstUnsortedIndex__ increments by 1.
 7. Continues steps 3-6 till unsorted partition length - 1.
 
+:bulb: Note: on each unsorted value comparison with sorted value if the first sorted value is __less__ than unosrted value and if there's more sorted values to the left it wont compare since the values are sorted!
+
 <p align="midlde">
   <img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Insertion-sort.svg" width="500" height="500">
 </p>
