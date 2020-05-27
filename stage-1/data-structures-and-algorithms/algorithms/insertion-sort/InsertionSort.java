@@ -9,6 +9,7 @@ public class InsertionSort {
     }
     
     public static int[] insertionSort(int[] target) {
+        // starting from index 1 element to the right
         for (int firstUnsortedIndex = 1; firstUnsortedIndex < target.length; firstUnsortedIndex++ ) {
             int newUnsortedElement = taget[firstUnsortedIndex];
             int i;
