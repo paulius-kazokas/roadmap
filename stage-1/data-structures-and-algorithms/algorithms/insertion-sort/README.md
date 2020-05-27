@@ -1,6 +1,6 @@
 # Insertion Sort
 
-_"..inserting unsorted values in sorted partition and comparing with each sorted value.."_
+_"..inserting unsorted values in sorted partition comparing with each sorted value and shifting if it contains higher or equal value.."_
 
 Sorted array values starts at array index 0 - at first iteration it's highest sorted value. Value comparison starts from right to left which means comparing first unsorted array value with last sorted array values in the beginning of the array. If unsorted value is higher than sorted value the unsorted value is saved at __new highest__ value, the last sorted value is placed at unsorted value index ( place ), sorted array length increments and the higher value is placed at the end of the sorted array. If there's more than one element in sorted array part then the unsorted value is compared with each sorted value from right to left ( last to first sorted value index ).
 
